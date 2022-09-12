@@ -18,6 +18,6 @@ number = input('Input number: ')
 ind = 0
 for i in task_list:
     t_el = task_list_2(i)
-    if number == t_el:
+    if number in t_el:
         print(f"{task_list} - ищем {number} - найдено на {ind} индексе")
     ind += 1
